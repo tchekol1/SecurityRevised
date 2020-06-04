@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<p>You are logged in as [[${user1.firstName}]] [[${user1.lastName}]]</p> <br/>
+<div th:if="${message}">
+    [[${message}]]
+</div>
+<br/>
+<form th:action="@{/logout}" method="post">
+    <input type="submit" value="Logout">
+</form>
+</body>
+</html>
