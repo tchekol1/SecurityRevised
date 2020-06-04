@@ -1,4 +1,4 @@
-package com.example.Security403;
+package com.example.Security;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class Security403Application {
+public class SecurityApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Security403Application.class, args);
+		SpringApplication.run(SecurityApplication.class, args);
 	}
 	@Bean
 	public CommandLineRunner run(UserRepository userRepository, RoleRepository roleRepository) throws Exception {

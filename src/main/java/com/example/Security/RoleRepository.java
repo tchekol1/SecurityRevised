@@ -1,4 +1,4 @@
-package com.example.Security403;
+package com.example.Security;
 
 import org.springframework.data.repository.CrudRepository;
 

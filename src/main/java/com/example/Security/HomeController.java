@@ -1,4 +1,4 @@
-package com.example.Security403;
+package com.example.Security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.validation.Valid;
-import java.security.Principal;
 import java.util.HashSet;
 import java.util.Set;
 

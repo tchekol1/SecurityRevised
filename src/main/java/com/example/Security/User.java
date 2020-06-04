@@ -1,10 +1,9 @@
-package com.example.Security403;
+package com.example.Security;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name="users_db") public class User {

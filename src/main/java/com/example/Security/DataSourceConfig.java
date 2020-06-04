@@ -1,4 +1,4 @@
-package com.example.Security403;
+package com.example.Security;
 
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
